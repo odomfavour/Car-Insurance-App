@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(45deg, red, blue);
+}
+
+.container {
+   
+    width: 50%;
+    height: auto;
+    margin: 40px auto;
+    
+    background: #fff;
+}
+
+.header {
+    background: blue;
+    padding: 2px;
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    padding: 30px;
+}
+
+label {
+    padding: 10px  0;
+    font-weight: 900;
+}
+
+select {
+    width: 100%;
+    padding: 6px;
+    margin: 10px 0; 
+}
+
+input[type='submit'] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    background-color: blue;
+    color: #fff;
+}
+
+.error {
+    background: pink;
+    border: 1px solid red;
+    text-align: center;
+    color: red;
+}
